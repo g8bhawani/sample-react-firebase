@@ -41,6 +41,6 @@ jobs:
       
       - run:
           name: Firebase Deploy
-          command: yarn firebase-deploy -- --token=$FIREBASE_TOKEN
+          command: npm run firebase-deploy -- --token=$FIREBASE_TOKEN
 
       # run tests!
