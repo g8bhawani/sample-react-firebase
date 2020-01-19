@@ -39,7 +39,7 @@ jobs:
           name: Project Build
           command: yarn build
       
-      -run:
+      - run:
           name: Firebase Deploy
           command: yarn firebase-deploy -- --token=$FIREBASE_TOKEN
 
