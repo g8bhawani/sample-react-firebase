@@ -44,3 +44,8 @@ jobs:
           command: npm run firebase-deploy -- --token=$FIREBASE_TOKEN
 
       # run tests!
+
+    branches:
+      ignore:
+        - develop
+        - /firebase-.*/
